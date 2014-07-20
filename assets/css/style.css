@@ -99,53 +99,21 @@ a:hover,a:active,a:focus{
 
 header{
 	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% -50px;
 }
-.background {
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:50% 50%;
-    /* ie8- graceful degradation */
-    background-position:50% 50%9 !important;
-}
-.fullscreen,
-.center-box {
-    width:100%;
-    min-height:100%;
-}
-.not-fullscreen,
-.not-fullscreen .center-box,
-.fullscreen.not-overflow,
-.fullscreen.not-overflow .center-box {
-    height:100%;
-    overflow:hidden;
-}
-
-/* content centering styles */
-
-.center-box {
-    display:table;
-}
-.centered {
-    display:table-cell;
-    position:relative;
-    vertical-align:middle;
-    text-align:center;
+.center {
+    text-align: center;
     color: #fff;
 }
-.centered p {
-	font-family: 'Dosis', sans-serif;
-	font-weight: 200;
-	font-size: 2em;
-	margin: 0;
-	line-height: 0;
-}
-.centered h1 {
+.bigheadline {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 10em;
 	margin: 0;
 }
-.centered h2 {
+.subheadline {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 200;
 	font-size: 3em;
@@ -620,10 +588,10 @@ footer {
 	.centered p {
 		font-size: 3em;
 	}
-	.centered h1 {
+	.bigheadline {
 		font-size: 15em;
 	}
-	.centered h2 {
+	.subheadline {
 		font-size: 5em;
 	}
 }
@@ -688,10 +656,10 @@ footer {
 	.centered p {
 		font-size: 2em;
 	}
-	.centered h1 {
+	.bigheadline {
 		font-size: 6em;
 	}
-	.centered h2 {
+	.subheadline {
 		font-size: 2em;
 	}
 	.item-space figure {
@@ -718,10 +686,10 @@ footer {
 	.centered p {
 	    font-size: 1em;
 	}
-	.centered h1 {
+	.bigheadline {
 	    font-size: 4em;
 	}
-	.centered h2 {
+	.subheadline {
 	    font-family: 'Titillium Web',sans-serif;
 	    font-size: 1.5em;
 	    font-weight: 200;
