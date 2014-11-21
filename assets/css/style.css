@@ -1,33 +1,30 @@
 /*
-
-Theme Name  : Dark Joe
-Theme URI   : http://themeWagon.com/demo/DarkJoe
-Author      : ThemeWagon
-Author URI  : http://ThemeWagon.com/
-Description : One page portfolio site for Freelancers
-Version     : 1.0.0
-License     : GNU General Public License v2 or later
-License URI : http://www.gnu.org/licenses/gpl-2.0.html
-
-
-
-
-TABLE OF CONTENTS
-
-	01 - Universal
-	02 - Header
-	03 - Navigation
-	04 - Services
-	05 - Portfolio
-	06 - Testimonial
-	07 - Contact
-	08 - Footer
-	09 - Responsive Fixes
-
-
+Theme Name: Dark Joe
+Theme URI: http://themewagon.com/demo/DarkJoe/
+Author: ThemeWagon
+Author URI: http://themewagon.com/
+Description: Slick One page portfolio site for Freelancers powered by Bootstrap 3.
+Version: 1.14.11
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+Tags: dark, white, one page, parallax, responsive-layout, full-width-template
+Text Domain: darkjoe
 */
 
-
+/**
+* Table of Contents:
+*
+* 01.0 - Universal
+* 02.0 - Header
+* 03.0 - Navigation
+* 04.0 - Services
+* 05.0 - Portfolio
+* 06.0 - Testimonial
+* 07.0 - Contact
+* 08.0 - Footer
+* 09.0 - Responsive Fixes
+* -----------------------------------------------------------------------------
+*/
 
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -131,10 +128,6 @@ header{
 	color: rgba(255, 255, 255, 0.4);
 	transition: 0.4s ease all;
 }
-/*font-family: 'Dosis', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Titillium Web', sans-serif;*/
 
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -386,10 +379,6 @@ font-family: 'Titillium Web', sans-serif;*/
 .item-space {
     margin-bottom: 30px;
 }
-
-
-
-
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  06 - Testimonial 
