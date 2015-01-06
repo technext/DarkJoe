@@ -101,8 +101,8 @@ header{
 	background-position: 50% -50px;
 }
 .center {
+    text-align: center;
     color: #fff;
-    padding-top: 193px;
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
@@ -182,32 +182,15 @@ header{
     margin-top: 5%;
 }
 .dropdown-menu ul li {
-	padding: 0.3em 0em 0.6em 0em;
-	font-size: 1.3em;
-	position: relative;
-	overflow: hidden;
+    padding: 0.3em 0em 0.6em 0em;
+    font-size: 1.3em;
+    position: relative;
 }
 .dropdown-menu ul li a i {
     position: absolute;
     right: 0;
     top: 20%;
     font-size: 25px;
-}
-.menu-effect {
-	width: 100%;
-	display: block;
-	height: 1px;
-	background: #e66f69;
-	position: absolute;
-	bottom: 0px;
-	left: -100%;
-	-webkit-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-.dropdown-menu ul li:hover .menu-effect {
-	left: 0%;
 }
 .arrow-up {
 	width: 0; 
@@ -251,7 +234,7 @@ header{
     margin-top: 40px;
     transition: all 0.3s ease;
 }
-section.service-wrap:hover i {
+.service-wrap:hover i {
     color: #e66f69;
 }
 .service-wrap p {
@@ -272,7 +255,7 @@ section.service-wrap:hover i {
 
 
 #portfolio {
-    padding: 60px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
 }
 
 .port {
@@ -429,7 +412,6 @@ section.service-wrap:hover i {
     margin-bottom: 20px;
     font-style: italic;
     font-size: 18px;
-    font-weight: 100;
 }
 .testimonila-block strong {
     font-size: 2em;
@@ -580,9 +562,6 @@ footer {
     padding: 20px 0px;
     text-align: right;
 }
-.designed a {
-    color: #fff;
-}
 .designed a:hover {
     color: #e66f69;
 }
@@ -682,12 +661,6 @@ footer {
 	}
 	.copyright, .designed {
 		text-align: center;
-	}
-	.copyright {
-		padding: 20px 0px 0px;
-	}
-	.designed {
-		padding: 10px 0px 20px;
 	}
 	.scrollDown {
 	    top: 70%;
