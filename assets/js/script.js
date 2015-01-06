@@ -141,12 +141,7 @@ function scroll() {
 
 
 
-   if($(window).scrollTop() + $(window).height() == $(document).height()) {
-   addPackery();
 }
-
-
-  }
 
  document.onscroll = scroll;
 
