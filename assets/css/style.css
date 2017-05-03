@@ -628,9 +628,8 @@ footer {
 	header{
 		background: url(../images/bg-small.jpg) no-repeat;
 		background-size: cover;
-	    background-attachment: fixed;
-	    background-position: 50% -50px;
-}
+		background-attachment: fixed;
+		background-position: 50% -50px;
 	}
 }
 
